@@ -77,6 +77,13 @@
     filter: saturate(150%);
 }
 
+.ex-8-img:hover{
+
+    filter: saturate(150%);
+    filter: sepia(100%);
+    border-radius: 20%;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
