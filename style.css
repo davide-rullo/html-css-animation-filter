@@ -108,14 +108,30 @@
 
 @keyframes caricamento{
     100%{
-        rotate: 360deg;
+        transform: rotate(360deg);
     }
 }
 
-
-
 .ex-11-icon {
     font-size: 60px;
+    animation-name: carica-11;
+}
+
+.ex-11-icon:hover{
+    animation-name: carica11;
+    animation-duration: 3s;
+}
+
+@keyframes carica11 {
+    0% {
+        transform: rotate(0);
+    }
+    95% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
